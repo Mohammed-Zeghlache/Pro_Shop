@@ -1,0 +1,112 @@
+/* Hero Section */
+.hero {
+  background: #fafafa;
+  padding: 6rem 0;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--primary);
+  padding: 0.35rem 1rem;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: var(--gray);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-features {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 2rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.hero-image img {
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+}
+
+/* Featured Section */
+.featured-section {
+  margin: 3rem 0;
+}
+
+/* WhatsApp CTA */
+.whatsapp-cta {
+  background: linear-gradient(135deg, #075E54 0%, #128C7E 100%);
+  padding: 4rem 0;
+  margin: 3rem 0;
+  color: white;
+  text-align: center;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cta-content h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-content p {
+  opacity: 0.9;
+}
+
+.whatsapp-btn {
+  background: white;
+  color: #075E54;
+}
+
+.whatsapp-btn:hover {
+  background: var(--accent);
+  color: var(--primary);
+}

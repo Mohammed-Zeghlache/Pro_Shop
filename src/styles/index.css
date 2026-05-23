@@ -1,0 +1,11 @@
+/* Import all CSS files */
+@import './global.css';
+@import './navbar.css';
+@import './home.css';
+@import './product-card.css';
+@import './store.css';
+@import './admin.css';
+@import './admin-login.css';
+@import './modal.css';
+@import './color-selector.css';
+@import './responsive.css';
