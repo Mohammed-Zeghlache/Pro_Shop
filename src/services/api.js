@@ -1,6 +1,8 @@
 import { dzdToUsd, usdToDzd } from '../utils/helpers';
 
-const API_URL = 'http://localhost:9000/api';
+// const API_URL = 'http://localhost:9000/api';
+const API_URL = 'https://proshop-p5sx.onrender.com/api';
+
 
 let adminToken = null;
 
